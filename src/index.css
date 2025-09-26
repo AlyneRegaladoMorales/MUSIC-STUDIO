@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&family=Inter:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+}
+@theme {
+    --color-dark: #151515;
+    --color-light: #E0DFDD;
+    --color-neonYellow: #F8FF00;
+    --color-yellow: #FFD000;
+    --color-orange1: #FFB700;
+    --color-orange2: #FFA200;
+    
+}

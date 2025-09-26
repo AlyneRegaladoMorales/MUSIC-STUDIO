@@ -1,9 +1,13 @@
+import './index.css'
+import Layout from './Layout/Layout'
+
 function App() {
+
   return (
     <>
-      <h1>Esta es la pagina inicial</h1>
+      <Layout />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
