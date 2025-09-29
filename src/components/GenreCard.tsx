@@ -17,7 +17,7 @@ const GenreCard: FC<GenreCardProps> = ({
 }) => {
   return (
     <div
-      className={`flex border border-light overflow-hidden ${className || ""}`}
+      className={`flex border bg-dark border-light overflow-hidden transition-transform duration-100 hover:scale-105 ${className || ""}`}
     >
       <div
         className={`flex-1 p-6 flex flex-col justify-center ${

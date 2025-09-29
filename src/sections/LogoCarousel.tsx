@@ -1,14 +1,9 @@
 import Marquee from "react-fast-marquee";
-
-const logos = [
-  { name: "Vevo", src: "src/assets/logos/vevo.png" },
-  { name: "Spotify", src: "src/assets/logos/spotify.png" },
-  { name: "YouTube", src: "src/assets/logos/youtube.png" },
-];
+import { logos } from "../data/logos";
 
 const LogoCarousel = () => {
   return (
-    <section className="relative py-6 ">
+    <section className="relative py-6  backdrop-blur-md bg-zinc-100/10 ">
       <div className="absolute left-0 top-0 h-full w-20 bg-gradient-to-r from-dark  z-10"></div>
       <div className="absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-dark z-10"></div>
 

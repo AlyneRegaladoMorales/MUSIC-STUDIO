@@ -15,25 +15,25 @@ const NavBar = () => {
           <span className="text-neonYellow">C</span>
         </h1>
 
-        <nav className="hidden md:flex space-x-8 text-base">
-          <Link href="#home">Home</Link>
-          <Link href="#genre">Genre</Link>
-          <Link href="#stage">Stage</Link>
-          <Link href="#gallery">Gallery</Link>
+        <nav className="hidden md:flex space-x-8 text-base ">
+          <Link href="#home">Inicio</Link>
+          <Link href="#genre">Géneros</Link>
+          <Link href="#stage">Escenario</Link>
+          <Link href="#gallery">Galería</Link>
         </nav>
 
-        <Button className="hidden md:inline-block">Get Ticket</Button>
+        <Button className="hidden md:inline-block">Comprar Ticket</Button>
 
         <button
           className="md:hidden focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
-          aria-label="Toggle Menu"
+          aria-label="Abrir o cerrar menú"
         ></button>
 
         <button
           className="md:hidden focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
-          aria-label="Toggle Menu"
+          aria-label="Abrir o cerrar menú"
         >
           <svg
             className="w-7 h-7"
@@ -54,21 +54,21 @@ const NavBar = () => {
       {isOpen && (
         <nav className="md:hidden bg-dark text-light flex flex-col items-center space-y-4 py-6 border-t border-yellow">
           <Link href="#home" onClick={handleClose}>
-            Home
+            Inicio
           </Link>
           <Link href="#genre" onClick={handleClose}>
-            Genre
+            Géneros
           </Link>
           <Link href="#stage" onClick={handleClose}>
-            Stage
+            Escenario
           </Link>
           <Link href="#gallery" onClick={handleClose}>
-            Gallery
+            Galería
           </Link>
-          <Button onClick={handleClose}>Get Ticket</Button>
+          <Button onClick={handleClose}>Comprar Ticket</Button>
         </nav>
       )}
     </header>
   );
-}
+};
 export default NavBar;
