@@ -20,7 +20,7 @@ const Home = () => {
       <Button>Comprar Ticket</Button>
 
       <img
-        src="src/assets/images/concert-hero.jpg"
+        src="/images/concert-hero.jpg"
         alt="Experiencia Musical"
         className="w-[100%]"
       />

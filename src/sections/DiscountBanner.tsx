@@ -5,7 +5,7 @@ const DiscountBanner = () => {
     <section
       className="relative w-full min-h-[50vh] flex items-center justify-center bg-cover bg-center py-20 mb-20"
       style={{
-        backgroundImage: "url('src/assets/bg/discount-bg.jpg')",
+        backgroundImage: "url('/bg/discount-bg.jpg')",
       }}
     >
       <div className="absolute inset-0 bg-black/60"></div>

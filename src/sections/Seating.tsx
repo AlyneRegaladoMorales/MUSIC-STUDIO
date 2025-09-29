@@ -13,7 +13,7 @@ const Seating: FC = () => {
 
       <div className="flex justify-center">
         <img
-          src="src/assets/images/seating.png"
+          src="/images/seating.png"
           alt="Escenario"
           className="sm:w-[70vw] md:w-[50vw] h-auto hover:scale-105 transition"
         />
